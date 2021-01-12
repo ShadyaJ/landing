@@ -1,0 +1,38 @@
+.cards {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid rgb(230,230,230);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+  margin: 30px;
+}
+
+.card h3 {
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+#icon-heart {
+  color:#E51B57;
+  font-size: 55px;
+}
+
+#icon-leaf {
+  color: #56853F;
+  font-size: 50px;
+}
+
+#icon-money {
+  color: #EF8F1C;
+  font-size: 50px;
+}
